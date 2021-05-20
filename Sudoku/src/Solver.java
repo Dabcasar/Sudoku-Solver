@@ -99,7 +99,7 @@ public class Solver {
     }
 
     public static boolean isValid(int x,int y,int z){
-        return true ==checkColumn(x,y,z) && true == checkColumn(x,y,z) && true == checkRow(x,y,z);
+        return true ==checkColumn(x,y,z) && true == checksquare(x,y,z) && true == checkRow(x,y,z);
 
     }
 
